@@ -28,7 +28,6 @@ public class Car extends Vehicle {
         //Hint: Car extends Vehicle
         super(name);
         this.isManual = isManual;
-        this.currentGear = 1;
     }
 
 
