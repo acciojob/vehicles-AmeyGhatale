@@ -49,8 +49,8 @@ public class F1 extends Car {
         }
         //for all other cases, change the gear accordingly
 
-        if(newSpeed > 0) {
+//        if(newSpeed > 0) {
             changeSpeed(newSpeed, getCurrentDirection());
-        }
+//        }
     }
 }
